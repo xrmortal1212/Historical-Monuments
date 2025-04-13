@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Monuments-Gallery</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="mage/icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/loaders/loader.css">
+</head>
+
+<body style="    background-image: linear-gradient(to top, #304647, 90%, #000);">
+    <div class="loader">
+        <div class="loader__content">
+            <div class="loader__box"></div>
+            <div class="loader__shadow"></div>
+        </div>
+    </div>
+    <header class="p-3 text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none d">
+                    <img class="rounded me-3" src="../images/logo.png" alt="Logo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="../index.html" class="nav-link px-2 text-white">Home</a></li>
+                        <li><a href="./east.html" class="nav-link px-2 text-white ">East</a></li>
+                        <li><a href="./west.html" class="nav-link px-2 text-white ">West</a></li>
+                        <li><a href="./north.html" class="nav-link px-2 text-white">North</a></li>
+                        <li><a href="./south.html" class="nav-link px-2 text-white">South</a></li>
+                        <li><a href="./contact.html" class="nav-link px-2 text-white ">Contact Us</a></li>
+                        <li><a href="./gallery.html" class="nav-link px-2 text-white active">Gallery</a></li>
+                    </ul>
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input type="search" class="form-control form-control-dark" placeholder="Search..."
+                            aria-label="Search">
+                    </form>
+                </div>
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-toggle="dropdown" aria-expanded="false">
+                        <img src="../images/logo.png" alt="Profile Picture" class="rounded-circle" width="50"
+                            height="50">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right text-small" aria-labelledby="dropdownUser1">
+                        <h4 class="dropdown-item">ABOUT US</h4>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./about.html">Visit Page <i class="bi bi-arrow-up-circle"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-item" href="#">X_X</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="text-center text-light my-4">
+        <h1 class="fw-bold mb-4 g">OUR GALLERY</h1>
+
+        <!-- Gallery Filter Navbar -->
+        <div class="btn-group mb-4" role="group" aria-label="Gallery Filter">
+            <button class="btn btn-outline-light filter-btn" data-target="east">East</button>
+            <button class="btn btn-outline-light filter-btn" data-target="west">West</button>
+            <button class="btn btn-outline-light filter-btn" data-target="north">North</button>
+            <button class="btn btn-outline-light filter-btn" data-target="south">South</button>
+        </div>
+
+        <!-- Gallery Sections -->
+        <!-- EAST Section (Default Visible) -->
+        <div class="container">
+            <div class="row gallery-section" id="east">
+                <div class="col-12 p-3 rounded"
+                    style="background-image: linear-gradient(to top, #5e923f, 70%, transparent); box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);">
+                    <h2 class="text-start fw-bold mb-3">EAST</h2>
+                    <div class="row g-2">
+                        <div class="col-md-4 col-sm-6"><img src="../images/East/chinawall.webp" alt="China Wall"
+                                class="img-fluid rounded shadow"></div>
+                        <div class="col-md-4 col-sm-6"><img src="../images/East/angkor-wat.webp" alt="Angkor Wat"
+                                class="img-fluid rounded shadow"></div>
+                        <div class="col-md-4 col-sm-6"><img src="../images/East/babylon.webp" alt="Babylon"
+                                class="img-fluid rounded shadow"></div>
+                        <div class="col-md-4 col-sm-6"><img src="../images/East/dome-of-the-rock.webp" alt="Dome of the Rock"
+                                class="img-fluid rounded shadow"></div>
+                        <div class="col-md-4 col-sm-6"><img src="../images/East/Gyeongbokgung Palace.webp"
+                                alt="Gyeongbokgung Palace" class="img-fluid rounded shadow"></div>
+                        <div class="col-md-4 col-sm-6"><img src="../images/East/pyramit-of-giza.webp" alt="Pyramid of Giza"
+                                class="img-fluid rounded shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WEST Section (Hidden by Default) -->
+        <div class="container">
+            <div class="row gallery-section d-none" id="west">
+                <div class="col-12 p-3 rounded"
+                    style="background-image: linear-gradient(to top, #dab027, 80%, transparent); box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);">
+                    <h2 class="text-start fw-bold mb-3">WEST</h2>
+                    <div class="row g-2">
+                        <div class="col-md-6 col-sm-12">
+                            <img src="../images/West/big-ben.webp" alt="Big Ben" class="img-fluid rounded shadow"
+                                style="height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="row g-2">
+                                <div class="col-6 col-sm-6">
+                                    <img src="../images/West/christ-the-redeemer.webp" alt="Christ the Redeemer"
+                                        class="img-fluid rounded shadow">
+                                </div>
+                                <div class="col-6 col-sm-6">
+                                    <img src="../images/West/colosseum.webp" alt="Colosseum"
+                                        class="img-fluid rounded shadow">
+                                </div>
+                                <div class="col-12 col-sm-12">
+                                    <img src="../images/West/eiffel-tower.webp" alt="Eiffel Tower"
+                                        class="img-fluid rounded shadow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row gallery-section d-none" id="north"> <!-- Default hidden -->
+                <div class="col-12 p-3 rounded"
+                    style="background-image: linear-gradient(to top, #4b5f7a, 80%, transparent); box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);">
+                    <h2 class="text-start fw-bold mb-3">NORTH</h2>
+                    <div class="row g-2">
+                        <div class="col-md-6 col-sm-12">
+                            <img src="../images/North/bran-castle.webp" alt="Bran Castle"
+                                class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <img src="../images/North/edinburgh-castle.webp" alt="Edinburgh Castle"
+                                class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="../images/North/mount-rushmore.webp" alt="Mount Rushmore"
+                                class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="../images/North/niagara-falls.webp" alt="Niagara Falls"
+                                class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="../images/North/stonehenge.webp" alt="Stonehenge"
+                                class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="container">
+            <div class="row gallery-section d-none" id="south">
+                <div class="col-12 p-3 rounded"
+                    style="background-image: linear-gradient(to top, #923f3f, 80%, transparent); box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);">
+                    <h2 class="text-start fw-bold mb-3">SOUTH</h2>
+                    <div class="row g-2">
+                        <div class="col-md-6 col-sm-12">
+                            <img src="../images/South/chichen-itza.webp" class="img-fluid rounded shadow" style="height: 740px;">
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="row g-2">
+                                <div class="col-12 col-sm-12"><img src="../images/South/taj-mahal.webp" class="img-fluid rounded shadow"></div>
+                                <div class="col-12 col-sm-12"><img src="../images/East/Petra.webp" class="img-fluid rounded shadow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer style="border-top: 5px black solid;margin-top: 20px;background-image: linear-gradient(to top, transparent, 25%, #1d1d1d);" class="py-5">
+        <div class="container">
+            <div class="row i">
+                <div class="col-12 col-md">
+                    <img src="../images/logo.png" alt="Logo" class="rounded" width="60" height="60" class="mb-2">
+                    <small class="d-block mt-2 text-light">&copy; 2025</small>
+                    <div class="mt-1">
+                        <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light me-2"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div style="font-size: larger;" class="col-6 col-md">
+                    <h4>QUICK LINKS</h4>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-light" href="../index.html">Home</a></li>
+                        <li><a class="text-light" href="./east.html">East</a></li>
+                        <li><a class="text-light" href="./west.html">West</a></li>
+                        <li><a class="text-light" href="./north.html">North</a></li>
+                        <li><a class="text-light" href="./south.html">South</a></li>
+                        <li><a class="text-light" href="./about.html">About Us</a></li>
+                        <li><a class="text-light" href="./contact.html">Contact Us</a></li>
+                        <li><a class="text-light" href="./gallery.html">Gallery</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-md">
+                    <h4 style="font-weight: bold;font-size: xx-large;">Feedback</h4>
+                    <form>
+                        <div class="form mb-3">
+                            <label for="feedbackEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control form-control-dark" id="feedbackEmail"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form mb-3">
+                            <label for="feedbackMessage" class="form-label">Message</label>
+                            <textarea class="form-control form-control-dark" id="feedbackMessage" rows="3"></textarea>
+                        </div>
+                        <button type="submit" style="background-color: black;color:white;" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".btn-group .btn");
+            const sections = document.querySelectorAll(".gallery-section");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    let target = this.getAttribute("data-target");
+
+                    sections.forEach(section => section.classList.add("d-none"));
+                    document.getElementById(target).classList.remove("d-none");
+
+                    buttons.forEach(btn => btn.classList.remove("active", "btn-success", "btn-warning", "btn-primary", "btn-danger"));
+                    this.classList.add("active");
+
+                    // Change button color based on target
+                    if (target === "east") {
+                        this.classList.add("btn-success");
+                    } else if (target === "west") {
+                        this.classList.add("btn-warning");
+                    } else if (target === "north") {
+                        this.classList.add("btn-primary");
+                    } else if (target === "south") {
+                        this.classList.add("btn-danger");
+                    }
+                });
+            });
+
+            document.querySelector(".filter-btn[data-target='east']").click();
+        });
+
+        $(window).on('load', function () {
+            $('.loader').addClass('loaded');
+            $('.loader__content').addClass('fade-out');
+        });
+
+        // Scroll animation
+        const scrollElements = document.querySelectorAll('.scroll-animation');
+
+        const elementInView = (el, dividend = 1) => {
+            const elementTop = el.getBoundingClientRect().top;
+            return (
+                elementTop <= (window.innerHeight || document.documentElement.clientHeight) / dividend
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add('visible');
+        };
+
+        const hideScrollElement = (element) => {
+            element.classList.remove('visible');
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 1.25)) {
+                    displayScrollElement(el);
+                } else {
+                    hideScrollElement(el);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', () => {
+            handleScrollAnimation();
+        });
+
+        // Initial check to display elements already in view
+        handleScrollAnimation();
+    </script>
+</body>
+
+</html>
