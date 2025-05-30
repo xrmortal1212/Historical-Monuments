@@ -2,7 +2,7 @@
 
 Welcome to the **Historical Monuments** project! This web-based platform is dedicated to preserving and showcasing the rich history and cultural significance of monuments from around the world.
 
-Explore it here: **[Visit the Live Site 🌐](https://xr_mortal1212.github.io/Historical-Monuments/)**
+Explore it here: **[Visit the Live Site 🌐](https://xrmortal1212.github.io/Historical-Monuments/)**
 
 ## 🏛️ About
 
